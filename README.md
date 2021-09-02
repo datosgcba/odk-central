@@ -27,7 +27,7 @@ Operaciones
 
 Este repositorio cumple funciones administrativas, pero también contiene el código de Docker para crear y ejecutar una pila central de producción.
 
-##Obtener y configurar ODK Central
+## Obtener y configurar ODK Central
 
 Ahora deberá descargar el software. En la consola del servidor, ejecute:
 
@@ -79,7 +79,7 @@ Esto tomará un tiempo y generará una gran cantidad de logs. No se preocupe si 
 Una vez que esté completo, ¡felicitaciones! Has instalado el ODK Central. A continuación, debemos enseñarle al servidor cómo iniciarlo.
 
 
-##Corriendo ODK Central
+## Corriendo ODK Central
 
 Ahora, ejecute:
 
@@ -98,7 +98,7 @@ Si el dominio está activo, puedes visitarlo en un navegador web para verificar 
 Nota: en caso de que el build de error de certificado, actualice la configuración del certbot.
 
 
-###Actualizar Certbot
+### Actualizar Certbot
 
 Entrar al contenedor de nginx:
 
@@ -127,7 +127,7 @@ Reiniciar contenedor de nginx desde la ruta en donde esta el `docker-compose.yml
 	docker-compose restart central_nginx_1
 
 
-##Iniciar sesión en ODK Central
+## Iniciar sesión en ODK Central
 
 Asegúrese de estar en la carpeta `central/` del servidor. Si no ha cerrado sesión de consola desde antes, debería estar bien.
 Luego, escriba:
